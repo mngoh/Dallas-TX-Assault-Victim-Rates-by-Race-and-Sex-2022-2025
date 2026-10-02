@@ -1,0 +1,59 @@
+{
+ "sources": {
+  "primary": {
+   "label": "NIBRS filtered like the city file, 2022 to 2025",
+   "years": 4.0,
+   "counts": {
+    "all": {
+     "Black": 7850,
+     "Hispanic": 5149,
+     "White": 2714,
+     "Asian": 108
+    },
+    "simple": {
+     "Black": 4794,
+     "Hispanic": 3220,
+     "White": 2032,
+     "Asian": 77
+    },
+    "aggravated": {
+     "Black": 3056,
+     "Hispanic": 1929,
+     "White": 682,
+     "Asian": 31
+    }
+   }
+  },
+  "secondary": {
+   "label": "City public file, 2022 to 2025",
+   "years": 4.0,
+   "counts": {
+    "all": {
+     "Black": 4254,
+     "Hispanic": 2699,
+     "White": 1398,
+     "Asian": 60
+    },
+    "simple": {
+     "Black": 2248,
+     "Hispanic": 1581,
+     "White": 893,
+     "Asian": 33
+    },
+    "aggravated": {
+     "Black": 2016,
+     "Hispanic": 1119,
+     "White": 507,
+     "Asian": 27
+    }
+   }
+  }
+ },
+ "definition_notes": "Dallas police publish their incidents with family violence, and offenses where a victim or suspect is under 17, removed. NIBRS 2022 to 2025 is filtered the same way here (women 17 or older, no partner or family relationship to any offender, no offender under 17) and set against the city file over the same years. Same women, same race rule (Hispanic of any race first), same population. The city file still holds 47% fewer women than NIBRS filtered this way, so it leaves out more than these rules do, but the shortfall is close to even across groups. 2,406 more women in the city file are in assaults still classed as preliminary investigations, outside codes 13A and 13B; counting them moves the city file's ratios to 2.88x Hispanic, 3.4x White, 12.25x Asian. A woman listed under both 13A and 13B in one city-file incident is counted once in the total, as aggravated (13 in this period).",
+ "nibrs_all_counts": {
+  "Black": 24838,
+  "Hispanic": 18016,
+  "White": 6924,
+  "Asian": 283
+ }
+}

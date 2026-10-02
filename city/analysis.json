@@ -1,0 +1,74 @@
+{
+ "_note": "Location check on the city's public file (Dallas OpenData, Police Incidents). It holds only non-family assaults with no victim or suspect under 17, so it describes that subset, not all assaults. Results feed the location section of the main page through scripts/page_extras.py; this config is not published as a page. Victim ages come from the Police Person table, linked by scripts/city_ages.py.",
+ "title": "Non-family assaults in Dallas, city public file",
+ "author": "Martin Ngoh",
+ "place": {
+  "name": "Dallas",
+  "short": "Dallas",
+  "census_geoid": "16000US4819000"
+ },
+ "acs_release": "acs2024_5yr",
+ "window": {
+  "start": "2022-01-01",
+  "end": "2025-12-31"
+ },
+ "event": {
+  "noun": "assault",
+  "plural": "assaults",
+  "verb": "assaulted"
+ },
+ "incidents": [
+  {
+   "path": "../data/city/dallas_city_simple_aged.csv",
+   "kind": "simple"
+  },
+  {
+   "path": "../data/city/dallas_city_aggravated_aged.csv",
+   "kind": "aggravated"
+  }
+ ],
+ "kind_labels": {
+  "simple": "Simple assault",
+  "aggravated": "Aggravated assault"
+ },
+ "columns": {
+  "id": "servnumid",
+  "date": "date1",
+  "race": "race_group",
+  "sex": "compsex",
+  "lat": "lat",
+  "lon": "lon",
+  "district": "division",
+  "premise": "premise",
+  "weapon": "weaponused",
+  "code": "nibrs_code",
+  "age": "victim_age"
+ },
+ "race_map": {
+  "Black": "Black",
+  "H": "Hispanic",
+  "White": "White",
+  "Asian": "Asian"
+ },
+ "sex_values": {
+  "Female": "F",
+  "Male": "M"
+ },
+ "groups": [
+  "Black",
+  "Hispanic",
+  "White",
+  "Asian"
+ ],
+ "focus": {
+  "group": "Black",
+  "sex": "F",
+  "label": "Black women"
+ },
+ "districts": {
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Division2022/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "name_field": "DIVISION",
+  "title_case": false,
+  "label": "police division"
+ }
+}

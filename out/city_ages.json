@@ -1,0 +1,26 @@
+{
+ "simple": {
+  "rows_in_window": 10036,
+  "link": {
+   "one person": 9432,
+   "paired in cell": 493,
+   "counts differ": 100,
+   "no person row": 11
+  },
+  "age_known_pct": 98.1,
+  "age_known_pct_women": 98.2,
+  "under_17_linked": 0
+ },
+ "aggravated": {
+  "rows_in_window": 11093,
+  "link": {
+   "one person": 9218,
+   "paired in cell": 1599,
+   "counts differ": 261,
+   "no person row": 15
+  },
+  "age_known_pct": 95.8,
+  "age_known_pct_women": 95.3,
+  "under_17_linked": 0
+ }
+}

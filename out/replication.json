@@ -1,0 +1,140 @@
+{
+ "sources": {
+  "primary": {
+   "label": "NIBRS filtered like the city file, 2022 to 2025",
+   "years": 4.0,
+   "rates": {
+    "all": {
+     "Black": 1200,
+     "Hispanic": 480,
+     "White": 381,
+     "Asian": 107
+    },
+    "simple": {
+     "Black": 733,
+     "Hispanic": 300,
+     "White": 285,
+     "Asian": 77
+    },
+    "aggravated": {
+     "Black": 467,
+     "Hispanic": 180,
+     "White": 96,
+     "Asian": 31
+    }
+   },
+   "ratios": {
+    "all": {
+     "Hispanic": 2.5,
+     "White": 3.15,
+     "Asian": 11.21
+    },
+    "simple": {
+     "Hispanic": 2.44,
+     "White": 2.57,
+     "Asian": 9.52
+    },
+    "aggravated": {
+     "Hispanic": 2.59,
+     "White": 4.86,
+     "Asian": 15.06
+    }
+   }
+  },
+  "secondary": {
+   "label": "City public file, 2022 to 2025",
+   "years": 4.0,
+   "rates": {
+    "all": {
+     "Black": 650,
+     "Hispanic": 252,
+     "White": 196,
+     "Asian": 60
+    },
+    "simple": {
+     "Black": 344,
+     "Hispanic": 147,
+     "White": 125,
+     "Asian": 33
+    },
+    "aggravated": {
+     "Black": 308,
+     "Hispanic": 104,
+     "White": 71,
+     "Asian": 27
+    }
+   },
+   "ratios": {
+    "all": {
+     "Hispanic": 2.58,
+     "White": 3.32,
+     "Asian": 10.83
+    },
+    "simple": {
+     "Hispanic": 2.34,
+     "White": 2.75,
+     "Asian": 10.42
+    },
+    "aggravated": {
+     "Hispanic": 2.96,
+     "White": 4.34,
+     "Asian": 11.41
+    }
+   }
+  }
+ },
+ "definition_notes": "Dallas police publish their incidents with family violence, and offenses where a victim or suspect is under 17, removed. NIBRS 2022 to 2025 is filtered the same way here (women 17 or older, no partner or family relationship to any offender, no offender under 17) and set against the city file over the same years. Same women, same race rule (Hispanic of any race first), same population. The city file still holds 47% fewer women than NIBRS filtered this way, so it leaves out more than these rules do, but the shortfall is close to even across groups. 2,406 more women in the city file are in assaults still classed as preliminary investigations, outside codes 13A and 13B; counting them moves the city file's ratios to 2.88x Hispanic, 3.4x White, 12.25x Asian. A woman listed under both 13A and 13B in one city-file incident is counted once in the total, as aggravated (13 in this period).",
+ "comparison": {
+  "all": {
+   "Hispanic": {
+    "first": 2.5,
+    "second": 2.58,
+    "change_pct": 3
+   },
+   "White": {
+    "first": 3.15,
+    "second": 3.32,
+    "change_pct": 5
+   },
+   "Asian": {
+    "first": 11.21,
+    "second": 10.83,
+    "change_pct": -3
+   }
+  },
+  "simple": {
+   "Hispanic": {
+    "first": 2.44,
+    "second": 2.34,
+    "change_pct": -4
+   },
+   "White": {
+    "first": 2.57,
+    "second": 2.75,
+    "change_pct": 7
+   },
+   "Asian": {
+    "first": 9.52,
+    "second": 10.42,
+    "change_pct": 9
+   }
+  },
+  "aggravated": {
+   "Hispanic": {
+    "first": 2.59,
+    "second": 2.96,
+    "change_pct": 14
+   },
+   "White": {
+    "first": 4.86,
+    "second": 4.34,
+    "change_pct": -11
+   },
+   "Asian": {
+    "first": 15.06,
+    "second": 11.41,
+    "change_pct": -24
+   }
+  }
+ }
+}

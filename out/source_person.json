@@ -1,0 +1,442 @@
+{
+ "platform": "socrata",
+ "url": "https://www.dallasopendata.com/d/chez-ydz4",
+ "api": "https://www.dallasopendata.com/resource/chez-ydz4",
+ "title": "Police Person",
+ "publisher": "www.dallasopendata.com",
+ "updated": "2026-10-02",
+ "description": "<b>This dataset is published by the City of Dallas for research purposes only. The authoritative source for crime data is the <a href=\"https://dallascitydata.dallascityhall.com/#/views/CrimeAnalyticsDashboard/CrimeOverviewD?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link&:refresh=yes\">Crime Analytics Dashboard</a>.</b>",
+ "columns": [
+  {
+   "field": "incidentnum",
+   "name": "IncidentNum",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "servyr",
+   "name": "ServYr",
+   "type": "number",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "servnumid",
+   "name": "ServNumID",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "date1",
+   "name": "Date1",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "date2",
+   "name": "Date2",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "edate",
+   "name": "EDate",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "reporteddate",
+   "name": "ReportedDate",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "involvement",
+   "name": "Involvement",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "secdinvolvement",
+   "name": "SecdInvolvement",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "persontype",
+   "name": "PersonType",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "dpd_swornmarshalls",
+   "name": "DPD/SwornMarshalls",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "personid",
+   "name": "PersonID",
+   "type": "number",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "name",
+   "name": "Name",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "nickname",
+   "name": "NickName",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "age",
+   "name": "Age",
+   "type": "number",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "ageatoffensetime",
+   "name": "AgeAtOffenseTime",
+   "type": "number",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "sex",
+   "name": "Sex",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "race",
+   "name": "Race",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "ethnic",
+   "name": "Ethnic",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "height",
+   "name": "Height",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "weight",
+   "name": "Weight",
+   "type": "number",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "eyes",
+   "name": "Eyes",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "teethdescriptor",
+   "name": "TeethDescriptor",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "hair",
+   "name": "Hair",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "hairlenght",
+   "name": "HairLenght",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "glasses",
+   "name": "Glasses",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "facialhair",
+   "name": "FacialHair",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "build",
+   "name": "Build",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "complexion",
+   "name": "Complexion",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "voice",
+   "name": "Voice",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "preference",
+   "name": "Preference",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "placeofbirth",
+   "name": "PlaceOfBirth",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "maritalstatus",
+   "name": "MaritalStatus",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "resstatus",
+   "name": "ResStatus",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "citizenship",
+   "name": "Citizenship",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "status1",
+   "name": "Status1",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "status2",
+   "name": "Status2",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "scarmark",
+   "name": "Scarmark",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "scarmarkcomments",
+   "name": "ScarmarkComments",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  },
+  {
+   "field": "updatedon",
+   "name": "UpDatedOn,,",
+   "type": "text",
+   "description": "",
+   "legend": {},
+   "subject": null
+  }
+ ],
+ "rows": 2479181,
+ "roles": {
+  "id": "personid",
+  "date": "reporteddate",
+  "age": "age",
+  "code": "ageatoffensetime",
+  "sex": "sex",
+  "race": "race",
+  "ethnicity": "ethnic"
+ },
+ "candidates": {
+  "id": [
+   "personid",
+   "servnumid"
+  ],
+  "date": [
+   "reporteddate"
+  ],
+  "age": [
+   "age",
+   "ageatoffensetime"
+  ],
+  "code": [
+   "ageatoffensetime"
+  ],
+  "sex": [
+   "sex"
+  ],
+  "race": [
+   "race"
+  ],
+  "ethnicity": [
+   "ethnic"
+  ]
+ },
+ "people": [
+  {
+   "field": "race",
+   "role": "race",
+   "subject": null
+  },
+  {
+   "field": "ethnic",
+   "role": "ethnicity",
+   "subject": null
+  },
+  {
+   "field": "sex",
+   "role": "sex",
+   "subject": null
+  },
+  {
+   "field": "age",
+   "role": "age",
+   "subject": null
+  },
+  {
+   "field": "ageatoffensetime",
+   "role": "age",
+   "subject": null
+  }
+ ],
+ "values": {
+  "race": {
+   "Black": 688543,
+   "White": 566898,
+   "": 561664,
+   "Hispanic or Latino": 561128,
+   "Asian": 35217,
+   "Middle Eastern": 24836,
+   "Unknown": 19853,
+   "NH": 5750,
+   "Non-Hispanic or Latino": 5686,
+   "American Indian or Alaska Native": 3585,
+   "Native Hawaiian/Pacific Islander": 3447,
+   "H": 2552,
+   "TEST": 18,
+   "O": 3,
+   "E": 1
+  },
+  "ethnic": {
+   "Non-Hispanic or Latino": 1263079,
+   "": 671240,
+   "Hispanic or Latino": 537372,
+   "Unknown": 7490
+  },
+  "sex": {
+   "Male": 1178785,
+   "Female": 728891,
+   "": 565881,
+   "Unknown": 5581,
+   "TEST": 42,
+   "N": 1
+  }
+ },
+ "date_range": {
+  "field": "reporteddate",
+  "lo": "1963-11-04 07:57:00.0000000",
+  "hi": "2026-10-02 00:50:00.0000000"
+ },
+ "verdict": {
+  "race_of": "unknown",
+  "usable_for_victims": false,
+  "notes": [
+   "monthly counts failed: HTTP Error 400: Bad Request",
+   "Race describes: unknown. That supports an enforcement analysis, not a victim one; confirm with the column descriptions.",
+   "Date column reporteddate looks like a report date; look for an occurrence date.",
+   "No coordinates or district: no location test and no tract model (as in DC).",
+   "Ethnicity is its own column (ethnic): Hispanic victims are not in the race codes. Combining them is a method choice for the user."
+  ]
+ }
+}

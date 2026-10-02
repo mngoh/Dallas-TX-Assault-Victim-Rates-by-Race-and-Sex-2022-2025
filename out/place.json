@@ -1,0 +1,19 @@
+{
+ "query": "Dallas, TX",
+ "candidates": [
+  {
+   "census_geoid": "16000US4819000",
+   "name": "Dallas city",
+   "display_name": "Dallas, TX",
+   "kind": "incorporated place",
+   "population": 1300642
+  },
+  {
+   "census_geoid": "05000US48113",
+   "name": "Dallas County",
+   "display_name": "Dallas County, TX",
+   "kind": "county",
+   "population": 2604053
+  }
+ ]
+}

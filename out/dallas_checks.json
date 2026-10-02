@@ -1,0 +1,390 @@
+{
+ "ethnicity": {
+  "white_race_women": 24565,
+  "white_unknown_ethnicity": 223,
+  "white_unknown_pct": 0.9,
+  "hispanic_share_where_known_pct": 72.5,
+  "all_unknown_ethnicity_pct": 1.0,
+  "black_race_hispanic": 332,
+  "scenarios": {
+   "as mapped": {
+    "Hispanic": 2.26,
+    "White": 3.91
+   },
+   "unknown ethnicity left out": {
+    "Hispanic": 2.26,
+    "White": 4.04
+   },
+   "split in known proportion": {
+    "Hispanic": 2.24,
+    "White": 4.0
+   },
+   "all Hispanic": {
+    "Hispanic": 2.23,
+    "White": 4.04
+   }
+  },
+  "hispanic_range": [
+   2.23,
+   2.26
+  ],
+  "white_range": [
+   3.91,
+   4.04
+  ]
+ },
+ "missing_race": {
+  "unknown_women": 20,
+  "ratios_redistributed": {
+   "Hispanic": 2.26,
+   "White": 3.91,
+   "Asian": 13.52
+  },
+  "ratios_as_mapped": {
+   "Hispanic": 2.26,
+   "White": 3.91,
+   "Asian": 13.52
+  }
+ },
+ "relationship_unknown_pct": {
+  "Asian": 16.3,
+  "Black": 13.6,
+  "Hispanic": 13.5,
+  "White": 13.3
+ },
+ "excluded": {
+  "other_agencies": {
+   "DART police": 1149,
+   "Baylor Health Care System police": 1088,
+   "Dallas ISD police": 745,
+   "Dallas County Sheriff": 484,
+   "UT Southwestern police": 362,
+   "Parkland (county hospital district) police": 325,
+   "SMU police": 73,
+   "Dallas College police": 10,
+   "Texas Health police": 6,
+   "Dallas Baptist University police": 2
+  },
+  "other_agencies_total": 4244,
+  "officer_victims": 640,
+  "intimidation_victims": 16389,
+  "age_unknown": 282,
+  "not_rated_race": {
+   "I": 90,
+   "P": 107
+  },
+  "victims_under_17": 6282,
+  "women_under_17": 3139,
+  "resident_blank_pct": 97.0
+ },
+ "premises": {
+  "dallas": {
+   "Commercial/Office Building": 16.3,
+   "Field/Woods": 5.2,
+   "Residence/Home": 45.0
+  },
+  "peers": {
+   "Houston": {
+    "Commercial/Office Building": 0.9,
+    "Field/Woods": 0.1,
+    "Residence/Home": 58.0
+   },
+   "San Antonio": {
+    "Commercial/Office Building": 0.2,
+    "Field/Woods": 0.1,
+    "Residence/Home": 68.0
+   },
+   "Fort Worth": {
+    "Commercial/Office Building": 0.9,
+    "Field/Woods": 0.6,
+    "Residence/Home": 60.3
+   },
+   "Austin": {
+    "Commercial/Office Building": 0.8,
+    "Field/Woods": 0.5,
+    "Residence/Home": 50.0
+   },
+   "El Paso": {
+    "Commercial/Office Building": 0.7,
+    "Field/Woods": 0.0,
+    "Residence/Home": 62.0
+   }
+  },
+  "assault_offenses": {
+   "Houston": 152510,
+   "San Antonio": 99458,
+   "Dallas": 75578,
+   "Austin": 46139,
+   "Fort Worth": 36780,
+   "El Paso": 27740
+  },
+  "city_file_pct": {
+   "Apartment Complex/Building": 12.9,
+   "Apartment Residence": 6.0,
+   "Apartment Parking Lot": 3.8,
+   "Outdoor Area Public/Private": 8.5,
+   "Business Office": 1.1,
+   "Commercial Property Occupied/Vacant": 1.0
+  }
+ },
+ "city_file": {
+  "share_of_nibrs_pct": {
+   "Black": 17.1,
+   "Hispanic": 15.0,
+   "White": 20.2,
+   "Asian": 21.2
+  },
+  "short_of_matched_pct": 47,
+  "women_city": {
+   "Black": 4254,
+   "Hispanic": 2699,
+   "White": 1398,
+   "Asian": 60
+  },
+  "age_known_pct_women": {
+   "simple": 98.2,
+   "aggravated": 95.3
+  },
+  "ratios": {
+   "Hispanic": 2.59,
+   "White": 3.31,
+   "Asian": 10.87
+  },
+  "model": {
+   "cells": 11788,
+   "coverage": {
+    "focus": 91.5,
+    "other": 98.6
+   },
+   "located": 8076,
+   "ladder": [
+    {
+     "model": "group only",
+     "rate_ratio": 2.74,
+     "ci_low": 2.51,
+     "ci_high": 2.99,
+     "controls": "focus"
+    },
+    {
+     "model": "+ age",
+     "rate_ratio": 2.78,
+     "ci_low": 2.57,
+     "ci_high": 3.02,
+     "controls": "focus + C(band)"
+    },
+    {
+     "model": "+ year",
+     "rate_ratio": 2.78,
+     "ci_low": 2.57,
+     "ci_high": 3.02,
+     "controls": "focus + C(band) + C(year)"
+    },
+    {
+     "model": "+ district",
+     "rate_ratio": 2.8,
+     "ci_low": 2.59,
+     "ci_high": 3.04,
+     "controls": "focus + C(band) + C(year) + C(district)"
+    },
+    {
+     "model": "+ tract socioeconomics",
+     "rate_ratio": 2.18,
+     "ci_low": 2.01,
+     "ci_high": 2.36,
+     "controls": "focus + C(band) + C(year) + C(district) + poverty + log_income + unemployment + renters + log_density"
+    }
+   ],
+   "by_kind": {
+    "aggravated": {
+     "rate_ratio": 2.49,
+     "ci_low": 2.25,
+     "ci_high": 2.75
+    },
+    "simple": {
+     "rate_ratio": 1.97,
+     "ci_low": 1.79,
+     "ci_high": 2.17
+    }
+   },
+   "pairwise": {
+    "Hispanic": {
+     "crude": {
+      "rate_ratio": 2.41,
+      "ci_low": 2.19,
+      "ci_high": 2.64
+     },
+     "adjusted": {
+      "rate_ratio": 2.16,
+      "ci_low": 1.98,
+      "ci_high": 2.35
+     }
+    },
+    "White": {
+     "crude": {
+      "rate_ratio": 3.6,
+      "ci_low": 3.24,
+      "ci_high": 4.0
+     },
+     "adjusted": {
+      "rate_ratio": 2.33,
+      "ci_low": 2.05,
+      "ci_high": 2.64
+     }
+    },
+    "Asian": {
+     "crude": {
+      "rate_ratio": 15.27,
+      "ci_low": 10.16,
+      "ci_high": 22.97
+     },
+     "adjusted": {
+      "rate_ratio": 13.95,
+      "ci_low": 9.3,
+      "ci_high": 20.92
+     }
+    }
+   },
+   "sensitivity": {},
+   "explained_pct": 32
+  },
+  "location": {
+   "districts": [
+    {
+     "district": "CBD",
+     "focus_rate": null,
+     "other_rate": 1095,
+     "ratio": null,
+     "focus_n": 182,
+     "focus_pop": 1103
+    },
+    {
+     "district": "CENTRAL",
+     "focus_rate": 1485,
+     "other_rate": 320,
+     "ratio": 4.64,
+     "focus_n": 422,
+     "focus_pop": 7106
+    },
+    {
+     "district": "NORTH CENTRAL",
+     "focus_rate": 302,
+     "other_rate": 100,
+     "ratio": 3.02,
+     "focus_n": 233,
+     "focus_pop": 19259
+    },
+    {
+     "district": "NORTHEAST",
+     "focus_rate": 381,
+     "other_rate": 152,
+     "ratio": 2.51,
+     "focus_n": 523,
+     "focus_pop": 34304
+    },
+    {
+     "district": "NORTHWEST",
+     "focus_rate": 1364,
+     "other_rate": 287,
+     "ratio": 4.75,
+     "focus_n": 329,
+     "focus_pop": 6029
+    },
+    {
+     "district": "SOUTH CENTRAL",
+     "focus_rate": 597,
+     "other_rate": 305,
+     "ratio": 1.96,
+     "focus_n": 1041,
+     "focus_pop": 43598
+    },
+    {
+     "district": "SOUTHEAST",
+     "focus_rate": 853,
+     "other_rate": 245,
+     "ratio": 3.48,
+     "focus_n": 990,
+     "focus_pop": 29016
+    },
+    {
+     "district": "SOUTHWEST",
+     "focus_rate": 488,
+     "other_rate": 193,
+     "ratio": 2.53,
+     "focus_n": 544,
+     "focus_pop": 27873
+    }
+   ],
+   "unmatched_district_names": [],
+   "actual_rate": 633,
+   "expected_if_other_rates": 226
+  }
+ },
+ "women_in_poor_tracts_pct": {
+  "Black": 32.7,
+  "Hispanic": 24.6,
+  "White": 5.4,
+  "Asian": 9.0
+ },
+ "stability": {
+  "halves": {
+   "first": {
+    "Hispanic": 2.43,
+    "White": 3.88,
+    "Asian": 13.72
+   },
+   "second": {
+    "Hispanic": 2.09,
+    "White": 3.94,
+    "Asian": 13.29
+   },
+   "change_pct": {
+    "Hispanic": -14,
+    "White": 2,
+    "Asian": -3
+   },
+   "years": [
+    [
+     "2022",
+     "2023"
+    ],
+    [
+     "2024",
+     "2025"
+    ]
+   ]
+  },
+  "sources": {
+   "all": {
+    "Hispanic": 3,
+    "White": 5,
+    "Asian": -3
+   },
+   "simple": {
+    "Hispanic": -4,
+    "White": 7,
+    "Asian": 9
+   },
+   "aggravated": {
+    "Hispanic": 14,
+    "White": -11,
+    "Asian": -24
+   }
+  },
+  "least_stable": {
+   "group": "Asian",
+   "max_move_pct": 24,
+   "others_max_pct": 14,
+   "victims": 283
+  }
+ },
+ "headline_ranges": {
+  "Hispanic": [
+   2.11,
+   2.26
+  ],
+  "White": [
+   3.64,
+   4.04
+  ]
+ }
+}

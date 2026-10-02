@@ -1,0 +1,10 @@
+{
+ "url": "https://www.dallasopendata.com/d/chez-ydz4",
+ "platform": "socrata",
+ "api": "https://www.dallasopendata.com/resource/chez-ydz4.csv",
+ "select": "incidentnum,servyr,involvement,persontype,race,ethnic,sex,ageatoffensetime",
+ "where": "involvement = 'Victim' AND persontype = 'Individual' AND servyr >= 2021",
+ "why": "only victims who are individuals, and only the columns needed to link ages (the table also holds names)",
+ "fetched_at": "2026-10-02T19:01:58",
+ "rows": 432074
+}

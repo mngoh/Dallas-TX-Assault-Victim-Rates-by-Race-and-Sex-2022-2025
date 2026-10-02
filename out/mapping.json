@@ -1,0 +1,114 @@
+{
+ "file": "data/interim/victim_offenses.csv (nibrs.py flatten of TX-2022..2025.zip)",
+ "agency": {
+  "ori": "TXDPD0000",
+  "name": "Dallas Police Department",
+  "nibrs_start": "2018-03-01"
+ },
+ "roles": {
+  "id": {
+   "column": "victim_id",
+   "evidence": "NIBRS victim key; one row per victim per offense in the flat file"
+  },
+  "date": {
+   "column": "incident_date",
+   "evidence": "NIBRS incident date (occurrence, not report)"
+  },
+  "race": {
+   "column": "race",
+   "evidence": "victim race, FBI REF_RACE legend",
+   "values": {
+    "W": 43586,
+    "B": 39346,
+    "A": 659,
+    "I": 135,
+    "P": 110,
+    "U": 75
+   }
+  },
+  "ethnicity": {
+   "column": "ethnicity",
+   "evidence": "victim ethnicity, NIBRS_ETHNICITY legend (H, N, U, X)",
+   "values": {
+    "N": 51875,
+    "H": 31181,
+    "U": 782,
+    "X": 73
+   }
+  },
+  "sex": {
+   "column": "sex",
+   "evidence": "victim sex code",
+   "values": {
+    "F": 50164,
+    "M": 33733,
+    "U": 14
+   }
+  },
+  "age": {
+   "column": "age_num / age_code",
+   "evidence": "NIBRS age codes; 00 unknown, NN/NB/BB under one",
+   "unknown": 282
+  },
+  "premise": {
+   "column": "location",
+   "evidence": "NIBRS location type"
+  },
+  "weapon": {
+   "column": "weapon",
+   "evidence": "NIBRS weapon type, joined per offense"
+  },
+  "relationship": {
+   "column": "relationship",
+   "evidence": "victim-offender relationship codes, joined per victim",
+   "blank_share": 0.05
+  },
+  "resident_status": {
+   "column": "resident_status",
+   "evidence": "blank for most victims",
+   "blank_share": 0.9698
+  },
+  "district": null,
+  "lat": null,
+  "lon": null
+ },
+ "race_by_ethnicity_individual_13A_13B": {
+  "H": {
+   "A": 10,
+   "B": 511,
+   "I": 45,
+   "P": 3,
+   "U": 22,
+   "W": 30590
+  },
+  "N": {
+   "A": 636,
+   "B": 38442,
+   "I": 83,
+   "P": 105,
+   "U": 28,
+   "W": 12581
+  },
+  "U": {
+   "A": 12,
+   "B": 355,
+   "I": 7,
+   "P": 2,
+   "U": 24,
+   "W": 382
+  },
+  "X": {
+   "A": 1,
+   "B": 38,
+   "I": 0,
+   "P": 0,
+   "U": 1,
+   "W": 33
+  }
+ },
+ "notes": [
+  "NIBRS has no address, district or coordinates: no location test, no tract model.",
+  "Race codes read from the REF_RACE table in each zip, not by convention.",
+  "Ethnicity is its own column: Hispanic victims are mostly recorded as race W (see crosstab)."
+ ]
+}

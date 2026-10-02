@@ -1,0 +1,1591 @@
+[
+ {
+  "platform": "arcgis",
+  "title": "Historic and Special Review Districts / DPD.ZONING_OVERLAY_ALL",
+  "publisher": "Planning_SeattleCityGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=c2957847954e456d8ca9fa3db693cb95",
+  "api": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Zoning_Overlays-Historic-Special_Review_Districts/FeatureServer/23",
+  "updated": "2026-07-03",
+  "geojson_url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Zoning_Overlays-Historic-Special_Review_Districts/FeatureServer/23/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 8,
+  "score": 6,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "OVERLAY",
+   "desc": "DESCRIPTION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "OVERLAY",
+   "DESCRIPTION",
+   "PUBLIC_DESCRIPTION",
+   "TYPE",
+   "CHAPTER",
+   "CHAPTER_LINK",
+   "SE_ANNO_CAD_DATA",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "City of Dallas DPD Sector and RAs Layers / DPD Reporting Areas",
+  "publisher": "gisWebService_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=29a5c0ab548843bda45d19431c897c2e",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/City_of_Dallas_DPD_Sector_and_RAs_Layers/FeatureServer/1",
+  "updated": "2026-02-03",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/City_of_Dallas_DPD_Sector_and_RAs_Layers/FeatureServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1158,
+  "score": 5,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "RA",
+   "BEAT",
+   "SECTOR",
+   "DIVISION",
+   "CODE",
+   "TYPE",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "City of Dallas DPD Sector and RAs Layers / DPD Sectors",
+  "publisher": "gisWebService_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=29a5c0ab548843bda45d19431c897c2e",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/City_of_Dallas_DPD_Sector_and_RAs_Layers/FeatureServer/0",
+  "updated": "2026-02-03",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/City_of_Dallas_DPD_Sector_and_RAs_Layers/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 41,
+  "score": 5,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "SECTOR",
+   "DIVISION",
+   "CODE",
+   "TYPE",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Current Land Use Zoning - Additional Overlay Areas / DPD.ZONING_OVERLAY_ALL",
+  "publisher": "Planning_SeattleCityGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=2a32de06171e429fb7e0d3844e54891c",
+  "api": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Additional_Overlay_Areas/FeatureServer/23",
+  "updated": "2026-07-03",
+  "geojson_url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Additional_Overlay_Areas/FeatureServer/23/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 9,
+  "score": 5,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "OVERLAY",
+   "desc": "DESCRIPTION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "OVERLAY",
+   "DESCRIPTION",
+   "PUBLIC_DESCRIPTION",
+   "TYPE",
+   "CHAPTER",
+   "CHAPTER_LINK",
+   "SE_ANNO_CAD_DATA",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Current Land Use Zoning Category / DPD.ZONING_PV",
+  "publisher": "Planning_SeattleCityGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=218268121cea4c3daddbc4ae8335b786",
+  "api": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Current_Land_Use_Zoning_Category_new/FeatureServer/0",
+  "updated": "2026-07-03",
+  "geojson_url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Current_Land_Use_Zoning_Category_new/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 3627,
+  "score": 5,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "HISTORIC",
+   "date": "EFFECTIVE",
+   "desc": "PUBLIC_DESCRIPTION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "ZONING",
+   "CONTRACT",
+   "ORDINANCE",
+   "EFFECTIVE",
+   "HISTORIC",
+   "PEDESTRIAN",
+   "SHORELINE",
+   "OVERLAY",
+   "LIGHTRAIL",
+   "MHA",
+   "IZ",
+   "MHA_VALUE",
+   "MIO_NAME",
+   "CLASS_DESC",
+   "CATEGORY_DESC",
+   "ZONELUT",
+   "ZONELUT_DESC",
+   "DETAIL_DESC",
+   "ZONING_DESC",
+   "BASE_ZONE",
+   "ZONING_PREV",
+   "CONTRACT_PREV",
+   "ORDINANCE_PREV",
+   "EFFECTIVE_PREV",
+   "HISTORIC_PREV",
+   "PEDESTRIAN_PREV",
+   "SHORELINE_PREV",
+   "OVERLAY_PREV",
+   "LIGHTRAIL_PREV",
+   "PUBLIC_DESCRIPTION",
+   "CHAPTER",
+   "CHAPTER_LINK",
+   "ZONINGHISTORY"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Mandatory Housing Affordability (MHA) Zones / DPD.ZONING_PV",
+  "publisher": "Planning_SeattleCityGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=cce94a62698640b59031ae35292acfe5",
+  "api": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Mandatory_Housing_Affordability_Zoning/FeatureServer/0",
+  "updated": "2026-07-03",
+  "geojson_url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Mandatory_Housing_Affordability_Zoning/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 2817,
+  "score": 5,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "HISTORIC",
+   "date": "EFFECTIVE",
+   "desc": "PUBLIC_DESCRIPTION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "ZONEID",
+   "ZONING",
+   "CONTRACT",
+   "ORDINANCE",
+   "EFFECTIVE",
+   "HISTORIC",
+   "PEDESTRIAN",
+   "SHORELINE",
+   "OVERLAY",
+   "LIGHTRAIL",
+   "MHA",
+   "IZ",
+   "MHA_VALUE",
+   "SE_ANNO_CAD_DATA",
+   "MIO_NAME",
+   "CLASS_DESC",
+   "CATEGORY_DESC",
+   "ZONELUT",
+   "ZONELUT_DESC",
+   "DETAIL_DESC",
+   "ZONING_DESC",
+   "BASE_ZONE",
+   "ZONING_PREV",
+   "CONTRACT_PREV",
+   "ORDINANCE_PREV",
+   "EFFECTIVE_PREV",
+   "HISTORIC_PREV",
+   "PEDESTRIAN_PREV",
+   "SHORELINE_PREV",
+   "OVERLAY_PREV",
+   "LIGHTRAIL_PREV",
+   "BZONEID",
+   "PUBLIC_DESCRIPTION",
+   "CHAPTER",
+   "CHAPTER_LINK",
+   "ZONINGHISTORY",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Station Area Overlay (light rail) / DPD.ZONING_OVERLAY_ALL",
+  "publisher": "Planning_SeattleCityGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=dc119b86637d4967b50b14df106ebefe",
+  "api": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Station_Area_Overlay_(light_rail)/FeatureServer/23",
+  "updated": "2026-07-03",
+  "geojson_url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/Station_Area_Overlay_(light_rail)/FeatureServer/23/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 8,
+  "score": 5,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "OVERLAY",
+   "desc": "DESCRIPTION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "OVERLAY",
+   "DESCRIPTION",
+   "PUBLIC_DESCRIPTION",
+   "TYPE",
+   "CHAPTER",
+   "CHAPTER_LINK",
+   "SE_ANNO_CAD_DATA",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "socrata",
+  "title": "Beats",
+  "publisher": "www.dallasopendata.com",
+  "url": "https://www.dallasopendata.com/dataset/Beats/cgb7-598g",
+  "api": "https://www.dallasopendata.com/resource/cgb7-598g",
+  "updated": "2026-03-12",
+  "geojson_url": "https://www.dallasopendata.com/resource/cgb7-598g.geojson?$limit=50000",
+  "features": null,
+  "score": 4,
+  "roles": {
+   "district": "division",
+   "id": "objectid"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "sector",
+   "objectid",
+   "beat",
+   "division",
+   "the_geom"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Beats3 / Beats3",
+  "publisher": "addkuykendall25",
+  "url": "https://www.arcgis.com/home/item.html?id=2f953a965fe44c04a368c53c9230681b",
+  "api": "https://services2.arcgis.com/ZMDjiWXYlfn8eNW8/arcgis/rest/services/Beats3/FeatureServer/0",
+  "updated": "2023-10-05",
+  "geojson_url": "https://services2.arcgis.com/ZMDjiWXYlfn8eNW8/arcgis/rest/services/Beats3/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 236,
+  "score": 4,
+  "roles": {
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "FID",
+   "BEAT",
+   "SECTOR",
+   "DIVISION",
+   "POP2010",
+   "POP2020",
+   "SQMILES",
+   "Sector_NPO",
+   "Div_Phone",
+   "Shape_Leng",
+   "Shape_Area",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Beats_H / Beats",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=e7dde32ac21849eb95ba0bee618904ab",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Beats_H/FeatureServer/1",
+  "updated": "2026-02-12",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Beats_H/FeatureServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 265,
+  "score": 4,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "BEAT",
+   "SECTOR",
+   "DIVISION",
+   "POP2010",
+   "POP2020",
+   "SQMILES",
+   "SNAME",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "BishopArts_District / BishopArts_District",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=7bbe64d376ea4030b6459166bbb634bc",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/BishopArts_District/FeatureServer/0",
+  "updated": "2019-08-09",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/BishopArts_District/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1,
+  "score": 4,
+  "roles": {
+   "id": "Id"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "FID",
+   "Id"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "CouncilDistricts / GISDPD.SDE.Council_Districts",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=2808cfdb6a4e4ffa924ea65b0e904e29",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/CouncilDistricts/FeatureServer/0",
+  "updated": "2023-07-24",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/CouncilDistricts/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 14,
+  "score": 4,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "District"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "DIST_ID",
+   "DIST_NAME",
+   "District",
+   "POP2020",
+   "SQ_MILES",
+   "Sum_ABCoun",
+   "Sum_HISP",
+   "Sum_NH_WHI",
+   "Sum_NH_BLA",
+   "Sum_NH_AMI",
+   "Sum_NH_ASI",
+   "Sum_NH_NHP",
+   "Sum_NH_OTH",
+   "Sum_NH_2MO",
+   "Sum_VAP",
+   "Sum_HVAP",
+   "Sum_NH_WVA",
+   "Sum_NH_BVA",
+   "Sum_NH_A_1",
+   "Sum_NH_A_2",
+   "Sum_NH_N_1",
+   "Sum_NH_O_1",
+   "Sum_NH_2_1",
+   "Optimum",
+   "Difference",
+   "DiffPerc",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Division / Divisions",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=3ce570ceaeaf470d974f0d8695271bcf",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Division/FeatureServer/0",
+  "updated": "2026-02-12",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Division/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 8,
+  "score": 4,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "DIVISION",
+   "DIVISION_NUM",
+   "DIVISION_ABBR",
+   "ACRES",
+   "SQMILES",
+   "POP2010",
+   "POP2020",
+   "SNAME",
+   "GlobalID",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Divisions26 view / SDE.Divisions26",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=fdb69161a0344f6f98cf058f09c920aa",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Divisions26_view/FeatureServer/0",
+  "updated": "2026-01-20",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Divisions26_view/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 8,
+  "score": 4,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "DIVISION",
+   "DIVISION_NUM",
+   "DIVISION_ABBR",
+   "ACRES",
+   "SQMILES",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Divsion_Contacts / DIVISION",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=2c7ef67a6b5d4bef8e07cb6d54399c4e",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Divsion_Contacts/FeatureServer/0",
+  "updated": "2019-08-09",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Divsion_Contacts/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 7,
+  "score": 4,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID_1",
+   "OBJECTID",
+   "DIVISION",
+   "ACRES",
+   "SQMILES",
+   "POP2010",
+   "SHAPE_STAr",
+   "SHAPE_STLe",
+   "URL",
+   "ADDRESS",
+   "PHONE",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "EntDistricts / EntDistrict_0719",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=d4f5f2944856492cb6ebd642ba39ef20",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/EntDistricts/FeatureServer/0",
+  "updated": "2019-08-09",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/EntDistricts/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 16,
+  "score": 4,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID_12",
+   "OBJECTID",
+   "OBJECTID_1",
+   "Id",
+   "Name",
+   "RA",
+   "BEAT",
+   "SECTOR",
+   "DIVISION",
+   "DIST_NAME",
+   "TAAG_Name",
+   "Shape_Le_1",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Dallas Base Layers / City_Limit",
+  "publisher": "dallascrm_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=3bccd096b3314daa986d59ada9601c7a",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallasbaselayers/FeatureServer/0",
+  "updated": "2026-09-09",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallasbaselayers/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 4,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "CITY",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Dallas Base Layers / Parcels",
+  "publisher": "dallascrm_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=3bccd096b3314daa986d59ada9601c7a",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallasbaselayers/FeatureServer/4",
+  "updated": "2026-09-09",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallasbaselayers/FeatureServer/4/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 500142,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "ACCT",
+   "GIS_ACCT",
+   "TAXPANAME1",
+   "TAXPANAME2",
+   "Website",
+   "CITY",
+   "COUNTY",
+   "SCHOOL",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Dallas City Limits / CityLimits",
+  "publisher": "dallascrm_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=2a2aedd1becd49f39f3561f5d9e586af",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CityLimits/FeatureServer/0",
+  "updated": "2025-07-21",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/CityLimits/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 4,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "CITY",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "socrata",
+  "title": "EPIC",
+  "publisher": "Dallas Police Department (DPD)",
+  "url": "https://www.dallasopendata.com/Public-Safety/EPIC/m9as-6srz",
+  "api": "https://www.dallasopendata.com/resource/m9as-6srz",
+  "updated": "2017-07-03",
+  "geojson_url": "https://www.dallasopendata.com/resource/m9as-6srz.geojson?$limit=50000",
+  "features": null,
+  "score": 3,
+  "roles": {},
+  "people": [],
+  "notes": [],
+  "fields": [
+   "name",
+   "shape_stle",
+   "shape_star",
+   "the_geom"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Libraries  / City_Limit",
+  "publisher": "dallascrm_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=246d1ade02ea4b9fb19b540532c6da55",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallas_base_layers_view/FeatureServer/0",
+  "updated": "2025-05-15",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallas_base_layers_view/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 4,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "CITY",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Mandatory Housing Affordability (MHA) Fee Areas / MHA Fee Areas",
+  "publisher": "Planning_SeattleCityGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=f0ec3640acef4a029ccb7eaa9de43eef",
+  "api": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/MHA_Fee_Areas_1/FeatureServer/0",
+  "updated": "2024-10-22",
+  "geojson_url": "https://services.arcgis.com/ZOyb2t4B0UYuYNYH/arcgis/rest/services/MHA_Fee_Areas_1/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 13,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "FEE_AREA"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "FEE_AREA",
+   "NOTES"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "RapidDeployDispatchMap_v3 / Ambulance Auto Assist",
+  "publisher": "DispatchViewer",
+  "url": "https://www.arcgis.com/home/item.html?id=88da56c6b7fa4e29a6401230be38d301",
+  "api": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/14",
+  "updated": "2026-01-09",
+  "geojson_url": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/14/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 3,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "desc": "DESCR_new",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "DESCR_new",
+   "RESPONSE",
+   "TYPE",
+   "FACILITYID",
+   "created_user",
+   "created_date",
+   "last_edited_user",
+   "last_edited_date",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "RapidDeployDispatchMap_v3 / Incident Report Sector",
+  "publisher": "DispatchViewer",
+  "url": "https://www.arcgis.com/home/item.html?id=88da56c6b7fa4e29a6401230be38d301",
+  "api": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/16",
+  "updated": "2026-01-09",
+  "geojson_url": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/16/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 3,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "SECTOR",
+   "FACILITYID",
+   "created_user",
+   "created_date",
+   "last_edited_user",
+   "last_edited_date",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Reporting_Areas / Reporting_Areas",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=3fee066181d44928b739471d0391b6c3",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Reporting_Areas/FeatureServer/0",
+  "updated": "2026-02-12",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Reporting_Areas/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1158,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "RA",
+   "BEAT",
+   "SECTOR",
+   "DIVISION",
+   "POP2010",
+   "POP2020",
+   "SQMILES",
+   "SNAME",
+   "GlobalID",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Residential NEZ / Residential_NEZ",
+  "publisher": "vicki.oppenheim@dallascityhall.com_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=43a55b740b8742db8b362fa6d3478d6b",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Residential_NEZ/FeatureServer/0",
+  "updated": "2025-02-28",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Residential_NEZ/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 7,
+  "score": 3,
+  "roles": {
+   "district": "SHAPE_Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "FID",
+   "NEZ",
+   "SHAPE_Leng",
+   "SHAPE_Area",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Sectors / Sectors",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=4784ce226f644c8799a5a1a5beeb4459",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Sectors/FeatureServer/0",
+  "updated": "2019-08-14",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Sectors/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 35,
+  "score": 3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "FID",
+   "OBJECTID",
+   "SECTOR",
+   "DIVISION",
+   "POP2010",
+   "SQMILES",
+   "SHAPE_STAr",
+   "SHAPE_STLe",
+   "GlobalID"
+  ]
+ },
+ {
+  "platform": "socrata",
+  "title": "TAAG",
+  "publisher": "Dallas Police Department (DPD)",
+  "url": "https://www.dallasopendata.com/Public-Safety/TAAG/u24f-6afq",
+  "api": "https://www.dallasopendata.com/resource/u24f-6afq",
+  "updated": "2017-07-03",
+  "geojson_url": "https://www.dallasopendata.com/resource/u24f-6afq.geojson?$limit=50000",
+  "features": null,
+  "score": 3,
+  "roles": {
+   "id": "id"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "shape_star",
+   "taag_name",
+   "pop2010",
+   "the_geom",
+   "sqmiles",
+   "id",
+   "shape_stle"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "CouncilDistricts_View / Council_Districts2011",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=73e4df15a7a5428ab04549bce2b66eef",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/CouncilDistricts_View/FeatureServer/0",
+  "updated": "2021-11-19",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/CouncilDistricts_View/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 14,
+  "score": 2,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "District"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "DIST_ID",
+   "DIST_NAME",
+   "District",
+   "SQ_MILES",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Dallas Base Layers / Council_Districts",
+  "publisher": "dallascrm_DallasGIS",
+  "url": "https://www.arcgis.com/home/item.html?id=3bccd096b3314daa986d59ada9601c7a",
+  "api": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallasbaselayers/FeatureServer/1",
+  "updated": "2026-09-09",
+  "geojson_url": "https://services2.arcgis.com/rwnOSbfKSwyTBcwN/arcgis/rest/services/Dallasbaselayers/FeatureServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 14,
+  "score": 2,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DISTRICT"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "COUNCIL",
+   "DISTRICT",
+   "COUNCILPER",
+   "COMMENTS",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "RapidDeployDispatchMap_v3 / Fire Inspection District",
+  "publisher": "DispatchViewer",
+  "url": "https://www.arcgis.com/home/item.html?id=88da56c6b7fa4e29a6401230be38d301",
+  "api": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/17",
+  "updated": "2026-01-09",
+  "geojson_url": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/17/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 6,
+  "score": 2,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "DISTRICTID",
+   "NAME",
+   "REPORDER",
+   "TYPE",
+   "AGENCY",
+   "CONTACT",
+   "EMAIL",
+   "PHONE",
+   "AGENCYURL",
+   "FACILITYID",
+   "created_user",
+   "created_date",
+   "last_edited_user",
+   "last_edited_date",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "RapidDeployDispatchMap_v3 / Fire Station District",
+  "publisher": "DispatchViewer",
+  "url": "https://www.arcgis.com/home/item.html?id=88da56c6b7fa4e29a6401230be38d301",
+  "api": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/15",
+  "updated": "2026-01-09",
+  "geojson_url": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/15/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 6,
+  "score": 2,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID",
+   "DISTRICTID",
+   "NAME",
+   "REPORDER",
+   "TYPE",
+   "AGENCY",
+   "CONTACT",
+   "EMAIL",
+   "PHONE",
+   "AGENCYURL",
+   "FACILITYID",
+   "created_user",
+   "created_date",
+   "last_edited_user",
+   "last_edited_date",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "CityPark / CityPark",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=13dfbb7c172643c1ad698c4a39e6f231",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/CityPark/FeatureServer/0",
+  "updated": "2019-08-09",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/CityPark/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 365,
+  "score": 1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "FID",
+   "OBJECTID",
+   "PARK_TYPE",
+   "ACQUIRED",
+   "OWNED_BY",
+   "MAPSCO",
+   "PARD_REGIO",
+   "COUNCIL_DI",
+   "ACRES",
+   "PARK_NAME",
+   "ADDRESS_1",
+   "DIVISION",
+   "SHAPE_STAr",
+   "SHAPE_STLe"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "FairPark_S_ Dallas RA / FairPark_S__Dallas_RA",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=c29973075fd240faaf57c9aaca6733e2",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/FairPark_S__Dallas_RA/FeatureServer/0",
+  "updated": "2019-08-09",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/FairPark_S__Dallas_RA/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 35,
+  "score": 1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "FID",
+   "OBJECTID",
+   "RA",
+   "BEAT",
+   "SECTOR",
+   "DIVISION",
+   "POP2010",
+   "SQMILES",
+   "SHAPE_STAr",
+   "SHAPE_STLe",
+   "SUM_SQMILE",
+   "SUM_POP201"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "FairPark_S_Dallas / FairPark_S_Dallas",
+  "publisher": "dwight.beaty_DPDCAU",
+  "url": "https://www.arcgis.com/home/item.html?id=c422157620f64a258cd449046a4b8ecd",
+  "api": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/FairPark_S_Dallas/FeatureServer/0",
+  "updated": "2019-08-09",
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/FairPark_S_Dallas/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1,
+  "score": 1,
+  "roles": {
+   "id": "Id"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "FID",
+   "Id"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "RapidDeployDispatchMap_v3 / 2020 Census Tract",
+  "publisher": "DispatchViewer",
+  "url": "https://www.arcgis.com/home/item.html?id=88da56c6b7fa4e29a6401230be38d301",
+  "api": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/18",
+  "updated": "2026-01-09",
+  "geojson_url": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/RapidDeployDispatchMap_v3/FeatureServer/18/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 867,
+  "score": 1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [],
+  "fields": [
+   "OBJECTID_1",
+   "GEOID",
+   "NAMELSAD",
+   "ALAND",
+   "AWATER",
+   "INTPTLAT",
+   "INTPTLON",
+   "OBJECTID",
+   "TOTALPOP",
+   "MTFCC",
+   "FUNCSTAT",
+   "created_user",
+   "created_date",
+   "last_edited_user",
+   "last_edited_date",
+   "NAME",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "COVID 19_WFL1 / Boundary_Dissolve",
+  "publisher": "WylieTx_GIS",
+  "url": "https://www.arcgis.com/home/item.html?id=da9e09b93a7d4e33a1f796d9443031f9",
+  "api": "https://services7.arcgis.com/6qzfxgiNv7oGnzvU/arcgis/rest/services/COVID_19_WFL1/FeatureServer/5",
+  "updated": "2020-04-03",
+  "geojson_url": "https://services7.arcgis.com/6qzfxgiNv7oGnzvU/arcgis/rest/services/COVID_19_WFL1/FeatureServer/5/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1,
+  "score": 0,
+  "roles": {
+   "id": "Id",
+   "date": "CreationDate",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "FID",
+   "Id",
+   "Cases",
+   "Active",
+   "Recovered",
+   "Deaths",
+   "CreationDate",
+   "Creator",
+   "EditDate",
+   "Editor",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "DentonTraining_082626_WFL1 / Water Lakes",
+  "publisher": "patrick.corley_mark_43",
+  "url": "https://www.arcgis.com/home/item.html?id=5510656bf6fe458e8380ec1448687888",
+  "api": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/DentonTraining_082626_WFL1/FeatureServer/4",
+  "updated": "2026-08-26",
+  "geojson_url": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/DentonTraining_082626_WFL1/FeatureServer/4/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 5,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "FID",
+   "OBJECTID",
+   "NAME",
+   "TYPE",
+   "Shape_Leng",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "DentonTraining_082626_WFL1 / Water Ponds",
+  "publisher": "patrick.corley_mark_43",
+  "url": "https://www.arcgis.com/home/item.html?id=5510656bf6fe458e8380ec1448687888",
+  "api": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/DentonTraining_082626_WFL1/FeatureServer/5",
+  "updated": "2026-08-26",
+  "geojson_url": "https://services7.arcgis.com/uFAr0LUPy14bDaLg/arcgis/rest/services/DentonTraining_082626_WFL1/FeatureServer/5/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 10093,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "FID",
+   "OBJECTID",
+   "NAME",
+   "TYPE",
+   "Shape_Leng",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Five Lowest Response Zip Codes2_WFL1 / Police_Division_Zipcodes",
+  "publisher": "alisah",
+  "url": "https://www.arcgis.com/home/item.html?id=1a4d7cd891c74fe9b53fd18b0afeedff",
+  "api": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/3",
+  "updated": "2020-05-03",
+  "geojson_url": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/3/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 77,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "lon": "Longitude",
+   "lat": "Latitude",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "STATEFP10",
+   "ZCTA5CE10",
+   "GEOID10",
+   "CLASSFP10",
+   "MTFCC10",
+   "FUNCSTAT10",
+   "ALAND10",
+   "AWATER10",
+   "INTPTLAT10",
+   "INTPTLON10",
+   "PARTFLG10",
+   "Zip_Num",
+   "Longitude",
+   "Latitude",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Five Lowest Response Zip Codes2_WFL1 / Police_Divisions",
+  "publisher": "alisah",
+  "url": "https://www.arcgis.com/home/item.html?id=1a4d7cd891c74fe9b53fd18b0afeedff",
+  "api": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/0",
+  "updated": "2020-05-03",
+  "geojson_url": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 7,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "DIVISION",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Median Household Income by Zip Code_WFL1 / Police_Divisions",
+  "publisher": "alisah",
+  "url": "https://www.arcgis.com/home/item.html?id=04d35c61a5dc42b6a636a3aa7fee6111",
+  "api": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Median_Household_Income_by_Zip_Code_WFL1/FeatureServer/0",
+  "updated": "2020-05-03",
+  "geojson_url": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Median_Household_Income_by_Zip_Code_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 7,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "DIVISION"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "DIVISION",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "SDFP Lighting Recommendations_WFL1 / Central Corridor",
+  "publisher": "DallasInnovationAlliance",
+  "url": "https://www.arcgis.com/home/item.html?id=19c4b02326e4432ab6e5a1eb8cb04d0e",
+  "api": "https://services8.arcgis.com/kmFyXLah09nsykWz/arcgis/rest/services/SDFP_Lighting_Recommendations_WFL1/FeatureServer/8",
+  "updated": "2019-06-11",
+  "geojson_url": "https://services8.arcgis.com/kmFyXLah09nsykWz/arcgis/rest/services/SDFP_Lighting_Recommendations_WFL1/FeatureServer/8/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "SDFP Lighting Recommendations_WFL1 / King/Lipscomb Corridor",
+  "publisher": "DallasInnovationAlliance",
+  "url": "https://www.arcgis.com/home/item.html?id=19c4b02326e4432ab6e5a1eb8cb04d0e",
+  "api": "https://services8.arcgis.com/kmFyXLah09nsykWz/arcgis/rest/services/SDFP_Lighting_Recommendations_WFL1/FeatureServer/7",
+  "updated": "2019-06-11",
+  "geojson_url": "https://services8.arcgis.com/kmFyXLah09nsykWz/arcgis/rest/services/SDFP_Lighting_Recommendations_WFL1/FeatureServer/7/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "density_kidnapping2_WFL1 / CityLimit_2_Clipped",
+  "publisher": "ellford25",
+  "url": "https://www.arcgis.com/home/item.html?id=f2818e92d12e49e0bdd17385dcb32ec9",
+  "api": "https://services2.arcgis.com/ZMDjiWXYlfn8eNW8/arcgis/rest/services/density_kidnapping2_WFL1/FeatureServer/4",
+  "updated": "2023-03-24",
+  "geojson_url": "https://services2.arcgis.com/ZMDjiWXYlfn8eNW8/arcgis/rest/services/density_kidnapping2_WFL1/FeatureServer/4/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1,
+  "score": -1,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "CITY",
+   "Shape_STAr",
+   "Shape_STLe",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Dispatch Map Layers WFL1 / Fire Inspection District",
+  "publisher": "DispatchViewer",
+  "url": "https://www.arcgis.com/home/item.html?id=41e016af502d425cba75715d8351480d",
+  "api": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/Dispatch_Map_WFL1/FeatureServer/0",
+  "updated": "2025-08-08",
+  "geojson_url": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/Dispatch_Map_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 6,
+  "score": -2,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "DISTRICTID",
+   "NAME",
+   "REPORDER",
+   "TYPE",
+   "AGENCY",
+   "CONTACT",
+   "EMAIL",
+   "PHONE",
+   "AGENCYURL",
+   "FACILITYID",
+   "created_user",
+   "created_date",
+   "last_edited_user",
+   "last_edited_date",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Dispatch Map Layers WFL1 / CensusTract2020",
+  "publisher": "DispatchViewer",
+  "url": "https://www.arcgis.com/home/item.html?id=41e016af502d425cba75715d8351480d",
+  "api": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/Dispatch_Map_WFL1/FeatureServer/1",
+  "updated": "2025-08-08",
+  "geojson_url": "https://services2.arcgis.com/5aVZxf6eblRfH5Yb/arcgis/rest/services/Dispatch_Map_WFL1/FeatureServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 867,
+  "score": -3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID_1",
+   "GEOID",
+   "NAMELSAD",
+   "ALAND",
+   "AWATER",
+   "INTPTLAT",
+   "INTPTLON",
+   "OBJECTID",
+   "TOTALPOP",
+   "MTFCC",
+   "FUNCSTAT",
+   "created_user",
+   "created_date",
+   "last_edited_user",
+   "last_edited_date",
+   "NAME",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Five Lowest Response Zip Codes2_WFL1 / Top_Five_Zips_Filtered",
+  "publisher": "alisah",
+  "url": "https://www.arcgis.com/home/item.html?id=1a4d7cd891c74fe9b53fd18b0afeedff",
+  "api": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/1",
+  "updated": "2020-05-03",
+  "geojson_url": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 49,
+  "score": -3,
+  "roles": {
+   "id": "OBJECTID",
+   "lon": "Longitude",
+   "lat": "Latitude",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID_1",
+   "STATEFP10",
+   "ZCTA5CE10",
+   "GEOID10",
+   "CLASSFP10",
+   "MTFCC10",
+   "FUNCSTAT10",
+   "ALAND10",
+   "AWATER10",
+   "INTPTLAT10",
+   "INTPTLON10",
+   "PARTFLG10",
+   "Zip_Num",
+   "Longitude",
+   "Latitude",
+   "OBJECTID",
+   "id",
+   "zip",
+   "zip_long",
+   "zip_lat",
+   "beat",
+   "count_",
+   "beat_long",
+   "beat_lat",
+   "field",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Five Lowest Response Zip Codes2_WFL1 / Top_Five_Zips_Filtered_Buffe",
+  "publisher": "alisah",
+  "url": "https://www.arcgis.com/home/item.html?id=1a4d7cd891c74fe9b53fd18b0afeedff",
+  "api": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/2",
+  "updated": "2020-05-03",
+  "geojson_url": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Five_Lowest_Response_Zip_Codes2_WFL1/FeatureServer/2/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 1,
+  "score": -3,
+  "roles": {
+   "id": "OBJECTID",
+   "district": "Shape__Area"
+  },
+  "people": [],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ },
+ {
+  "platform": "arcgis",
+  "title": "Median Household Income by Zip Code_WFL1 / Median Household Income by Zip Code",
+  "publisher": "alisah",
+  "url": "https://www.arcgis.com/home/item.html?id=04d35c61a5dc42b6a636a3aa7fee6111",
+  "api": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Median_Household_Income_by_Zip_Code_WFL1/FeatureServer/1",
+  "updated": "2020-05-03",
+  "geojson_url": "https://services1.arcgis.com/HmwnYiJTBZ4UkySc/arcgis/rest/services/Median_Household_Income_by_Zip_Code_WFL1/FeatureServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "features": 77,
+  "score": -3,
+  "roles": {
+   "id": "OBJECTID",
+   "lon": "Longitude",
+   "lat": "Latitude",
+   "ethnicity": "HISPANIC_FEMALE",
+   "district": "Shape__Area"
+  },
+  "people": [
+   {
+    "field": "HISPANIC_FEMALE",
+    "role": "ethnicity",
+    "subject": null
+   },
+   {
+    "field": "HISPANIC_MALE",
+    "role": "ethnicity",
+    "subject": null
+   },
+   {
+    "field": "HISPANIC_UNKNOWN",
+    "role": "ethnicity",
+    "subject": null
+   },
+   {
+    "field": "total_hispanic",
+    "role": "ethnicity",
+    "subject": null
+   }
+  ],
+  "notes": [
+   "looks like a personal copy or extract: prefer the agency's own dataset"
+  ],
+  "fields": [
+   "OBJECTID",
+   "STATEFP10",
+   "ZCTA5CE10",
+   "GEOID10",
+   "CLASSFP10",
+   "MTFCC10",
+   "FUNCSTAT10",
+   "ALAND10",
+   "AWATER10",
+   "INTPTLAT10",
+   "INTPTLON10",
+   "PARTFLG10",
+   "Zip_Num",
+   "Longitude",
+   "Latitude",
+   "zip_code",
+   "Number_of_uniq_id",
+   "AVG_responded_within_23",
+   "AVG_ever_responded",
+   "MEDIAN_original_fine",
+   "MEDIAN_days_to_respond",
+   "AFRICAN_AMERICAN_FEMALE",
+   "AFRICAN_AMERICAN_MALE",
+   "AFRICAN_AMERICAN_UNKNOWN",
+   "ASIAN_FEMALE",
+   "ASIAN_MALE",
+   "HISPANIC_FEMALE",
+   "HISPANIC_MALE",
+   "HISPANIC_UNKNOWN",
+   "INDIAN_FEMALE",
+   "INDIAN_MALE",
+   "MIDDLE_EASTERN_FEMALE",
+   "MIDDLE_EASTERN_MALE",
+   "NATIVE_AMERICAN_FEMALE",
+   "NATIVE_AMERICAN_MALE",
+   "UNKNOWN_FEMALE",
+   "UNKNOWN_MALE",
+   "UNKNOWN_UNKNOWN",
+   "WHITE_FEMALE",
+   "WHITE_MALE",
+   "population",
+   "occupied_housing_units",
+   "population_density",
+   "median_home_value",
+   "median_household_income",
+   "population_num",
+   "total_hispanic",
+   "total_african_american",
+   "median_household_income_num",
+   "Shape__Area",
+   "Shape__Length"
+  ]
+ }
+]

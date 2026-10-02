@@ -1,0 +1,227 @@
+{
+ "sections": [
+  {
+   "title": "The city's public file",
+   "note": "Dallas police publish incident data on Dallas OpenData with victim race and locations, but without family violence or any offense with a victim or suspect under 17. For 2022 to 2025 it holds 8,411 assaults on women in the compared groups, against 50,061 in the FBI's NIBRS files. The rates above use NIBRS. The city file is used for the replication and for the location section below.",
+   "boxes": [
+    {
+     "id": "cityShare",
+     "title": "What the city's public file holds",
+     "text": "Of the assaults on women that Dallas police reported to the FBI, the city's public file holds 15.0% to 21.2%: 17.1% for Black women, 15.0% Hispanic, 20.2% White and 21.2% Asian. Filtering the FBI's file the same way (no family or partner assault, no one under 17) keeps 28.6% to 39.2%. The city file holds fewer still, but evenly enough across groups that the ratios agree (Replication, below).",
+     "labels": [
+      "Black women",
+      "Hispanic women",
+      "White women",
+      "Asian women"
+     ],
+     "datasets": [
+      {
+       "label": "NIBRS filtered like the city file",
+       "data": [
+        31.6,
+        28.6,
+        39.2,
+        38.2
+       ],
+       "color": "muted"
+      },
+      {
+       "label": "City public file",
+       "data": [
+        17.1,
+        15.0,
+        20.2,
+        21.2
+       ],
+       "color": "red"
+      }
+     ],
+     "ytitle": "% of NIBRS assaults on women"
+    }
+   ]
+  },
+  {
+   "title": "Where: non-family assaults, from the city's file",
+   "note": "NIBRS has no location, so this section uses the city's public file: assaults with no family or partner relationship and no one under 17, 4,254 on Black women and 4,157 on other women in the compared groups, 2022 to 2025. Victim ages are linked from the city's Police Person table (98.2% in simple assaults and 95.3% in aggravated assaults). It describes that part of the data, not all assaults.",
+   "boxes": [
+    {
+     "id": "divChart",
+     "title": "Inside each police division",
+     "text": "In this subset, Black women's rate is higher than other women's in every division where it can be rated, from 1.96x in South Central to 4.75x in Northwest. If Black women had other women's rate in each division, theirs would be 226 per 100,000 a year, not 633. CBD (downtown) is not rated: too few Black women live there.",
+     "labels": [
+      "Central",
+      "North Central",
+      "Northeast",
+      "Northwest",
+      "South Central",
+      "Southeast",
+      "Southwest"
+     ],
+     "datasets": [
+      {
+       "label": "Black women",
+       "data": [
+        1485,
+        302,
+        381,
+        1364,
+        597,
+        853,
+        488
+       ],
+       "color": "red"
+      },
+      {
+       "label": "Other women",
+       "data": [
+        320,
+        100,
+        152,
+        287,
+        305,
+        245,
+        193
+       ],
+       "color": "blue"
+      }
+     ],
+     "ytitle": "Victims per 100,000 per year",
+     "tall": true
+    },
+    {
+     "id": "cityLadder",
+     "title": "How much survives adjustment",
+     "text": "Poisson rate models on 11,788 tract by group by age by year cells, covering 91.5% of located Black women victims. Crude 2.74x. Age, year and division leave it at 2.8x. Tract poverty, income, unemployment, renting and density narrow it to 2.18x (95% CI 2.01 to 2.36): about 32% of the crude excess.",
+     "labels": [
+      "Crude",
+      "+ age",
+      "+ year",
+      "+ police division",
+      [
+       "+ tract poverty,",
+       "income, jobs, housing"
+      ]
+     ],
+     "datasets": [
+      {
+       "label": "Rate ratio",
+       "data": [
+        2.74,
+        2.78,
+        2.78,
+        2.8,
+        2.18
+       ],
+       "color": "red"
+      }
+     ],
+     "ytitle": "Black women's rate as a multiple of other women's",
+     "horizontal": true,
+     "legend": false,
+     "tall": true
+    },
+    {
+     "id": "cityPair",
+     "title": "Each comparison group on its own",
+     "text": "Fully adjusted: 2.16x Hispanic women (95% CI 1.98 to 2.35), 2.33x White women (95% CI 2.05 to 2.64) and 13.95x Asian women (95% CI 9.3 to 20.92). Crude in grey.",
+     "labels": [
+      "Hispanic women",
+      "White women",
+      "Asian women"
+     ],
+     "datasets": [
+      {
+       "label": "Crude",
+       "data": [
+        2.41,
+        3.6,
+        15.27
+       ],
+       "color": "muted"
+      },
+      {
+       "label": "Fully adjusted",
+       "data": [
+        2.16,
+        2.33,
+        13.95
+       ],
+       "color": "red"
+      }
+     ],
+     "ytitle": "Rate ratio"
+    },
+    {
+     "id": "povChart",
+     "title": "Where women live, by tract poverty",
+     "text": "32.7% of Black women live in census tracts where 25% or more of residents are poor, against 24.6% of Hispanic women, 5.4% of White women and 9.0% of Asian women. The tract model compares women in tracts with similar poverty, income, jobs and housing.",
+     "labels": [
+      "Under 10%",
+      "10% to 25%",
+      "25% or more"
+     ],
+     "datasets": [
+      {
+       "label": "Black women",
+       "data": [
+        18.1,
+        49.2,
+        32.7
+       ],
+       "color": "red"
+      },
+      {
+       "label": "Hispanic women",
+       "data": [
+        21.6,
+        53.8,
+        24.6
+       ],
+       "color": "blue"
+      },
+      {
+       "label": "White women",
+       "data": [
+        60.8,
+        33.8,
+        5.4
+       ],
+       "color": "blueLight"
+      },
+      {
+       "label": "Asian women",
+       "data": [
+        50.5,
+        40.5,
+        9.0
+       ],
+       "color": "muted"
+      }
+     ],
+     "ytitle": "% of each group's women"
+    }
+   ],
+   "findings": [
+    {
+     "title": "What the subset shows",
+     "red": true,
+     "text": "In non-family assaults, Black women's rate is 2.59x Hispanic, 3.31x White and 10.87x Asian women's. The gap holds inside every police division. Comparing women in tracts with similar poverty, income, jobs and housing narrows it to 2.18x. Those conditions are shaped by segregation, so this locates part of the gap in where women live; it does not explain it away."
+    },
+    {
+     "title": "What it cannot show",
+     "text": "Partner and other family assaults have no public location, and they are 63% of the assaults on women in NIBRS. Whether neighborhood accounts for the same share of those is unknown."
+    }
+   ]
+  }
+ ],
+ "readme": [
+  [
+   "City public file",
+   "holds 15.0% to 21.2% of the assaults on women in NIBRS (17.1% for Black women); NIBRS filtered the same way keeps 28.6% to 39.2%"
+  ],
+  [
+   "Where (city file, non-family)",
+   "Black women 2.59x Hispanic, 3.31x White, 10.87x Asian women; higher in every rated division (1.96x to 4.75x); model crude 2.74x, 2.18x after tract controls (95% CI 2.01 to 2.36)"
+  ]
+ ]
+}

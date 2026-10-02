@@ -1,0 +1,54 @@
+{
+ "source": "data/interim/dallas_incidents_slim.csv",
+ "rows_in": 1529365,
+ "code_column": "nibrs_code",
+ "kinds": {
+  "simple": [
+   "13B"
+  ],
+  "aggravated": [
+   "13A"
+  ]
+ },
+ "keep": {
+  "involvement": {
+   "values": [
+    "Victim"
+   ],
+   "dropped": 1
+  },
+  "victimtype": {
+   "values": [
+    "Individual"
+   ],
+   "dropped": 620
+  }
+ },
+ "counts": {
+  "simple": {
+   "rows": 23062,
+   "by_code": {
+    "13B": 23062
+   },
+   "path": "data/city/dallas_city_simple.csv"
+  },
+  "aggravated": {
+   "rows": 27886,
+   "by_code": {
+    "13A": 27886
+   },
+   "path": "data/city/dallas_city_aggravated.csv"
+  }
+ },
+ "race_rule": {
+  "column": "race_group",
+  "hispanic_values": [
+   "Hispanic or Latino"
+  ],
+  "from": [
+   "comprace",
+   "compethnicity"
+  ],
+  "note": "Hispanic of any race first, otherwise the recorded race; unknown ethnicity keeps the recorded race"
+ }
+}

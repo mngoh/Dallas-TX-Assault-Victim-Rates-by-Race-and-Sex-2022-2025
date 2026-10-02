@@ -1,0 +1,61 @@
+{
+ "geojson": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Division2022/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+ "name_field": "DIVISION",
+ "title_case": false,
+ "rename": {},
+ "polygons": 8,
+ "points_used": 27559,
+ "points_inside_pct": 99.8,
+ "agreement_pct": 99.3,
+ "one_to_one": true,
+ "mapping": {
+  "CBD": {
+   "data_name": "CBD",
+   "agreement_pct": 99.0,
+   "points": 680
+  },
+  "CENTRAL": {
+   "data_name": "CENTRAL",
+   "agreement_pct": 99.3,
+   "points": 2440
+  },
+  "NORTH CENTRAL": {
+   "data_name": "NORTH CENTRAL",
+   "agreement_pct": 99.7,
+   "points": 1776
+  },
+  "NORTHEAST": {
+   "data_name": "NORTHEAST",
+   "agreement_pct": 99.7,
+   "points": 3967
+  },
+  "NORTHWEST": {
+   "data_name": "NORTHWEST",
+   "agreement_pct": 99.1,
+   "points": 3200
+  },
+  "SOUTH CENTRAL": {
+   "data_name": "SOUTH CENTRAL",
+   "agreement_pct": 99.0,
+   "points": 5076
+  },
+  "SOUTHEAST": {
+   "data_name": "SOUTHEAST",
+   "agreement_pct": 99.8,
+   "points": 6049
+  },
+  "SOUTHWEST": {
+   "data_name": "SOUTHWEST",
+   "agreement_pct": 98.6,
+   "points": 4314
+  }
+ },
+ "data_names_without_polygon": {},
+ "polygons_without_points": [],
+ "weak": {},
+ "config": {
+  "geojson_url": "https://services1.arcgis.com/In9TiV3Fv4nmmrag/arcgis/rest/services/Division2022/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson",
+  "name_field": "DIVISION",
+  "title_case": false
+ }
+}

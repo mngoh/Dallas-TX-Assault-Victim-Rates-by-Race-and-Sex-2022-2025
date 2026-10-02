@@ -1,0 +1,97 @@
+{
+ "women_nibrs": {
+  "Black": 24838,
+  "Hispanic": 18016,
+  "White": 6924,
+  "Asian": 283
+ },
+ "women_nibrs_matched": {
+  "Black": 7850,
+  "Hispanic": 5149,
+  "White": 2714,
+  "Asian": 108
+ },
+ "women_city": {
+  "Black": 4254,
+  "Hispanic": 2699,
+  "White": 1398,
+  "Asian": 60
+ },
+ "city_share_of_nibrs_pct": {
+  "Black": 17.1,
+  "Hispanic": 15.0,
+  "White": 20.2,
+  "Asian": 21.2
+ },
+ "matched_share_of_nibrs_pct": {
+  "Black": 31.6,
+  "Hispanic": 28.6,
+  "White": 39.2,
+  "Asian": 38.2
+ },
+ "city_vs_matched_pct": {
+  "Black": -45.8,
+  "Hispanic": -47.6,
+  "White": -48.5,
+  "Asian": -44.4
+ },
+ "removed_by": {
+  "victim_under_17": {
+   "Black": 1561,
+   "Hispanic": 1361,
+   "White": 201,
+   "Asian": 11
+  },
+  "partner": {
+   "Black": 9324,
+   "Hispanic": 7877,
+   "White": 2872,
+   "Asian": 125
+  },
+  "other_family": {
+   "Black": 6395,
+   "Hispanic": 3924,
+   "White": 1162,
+   "Asian": 41
+  },
+  "offender_under_17": {
+   "Black": 1303,
+   "Hispanic": 930,
+   "White": 236,
+   "Asian": 10
+  }
+ },
+ "removed_any": {
+  "Black": 16988,
+  "Hispanic": 12867,
+  "White": 4210,
+  "Asian": 175
+ },
+ "city_women_other_race": {
+  "Middle Eastern": 25,
+  "American Indian or Alaska Native": 13,
+  "Native Hawaiian/Pacific Islander": 12,
+  "Unknown": 8,
+  "NH": 4
+ },
+ "city_both_kinds": 13,
+ "city_short_of_matched_pct": 47,
+ "preliminary": {
+  "women": {
+   "Black": 1436,
+   "Hispanic": 536,
+   "White": 423,
+   "Asian": 11
+  },
+  "ratios_with": {
+   "Hispanic": 2.88,
+   "White": 3.4,
+   "Asian": 12.25
+  },
+  "ratios_without": {
+   "Hispanic": 2.58,
+   "White": 3.32,
+   "Asian": 10.83
+  }
+ }
+}

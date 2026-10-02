@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-02",
+  "city_file": {
+    "dataset": "Dallas Police Department, Police Incidents (dallasopendata.com qv6i-rri7)",
+    "rows": 1529365,
+    "grain": "one row per victim per offense (servnumid); incidentnum groups them",
+    "stated_exclusions": ["sexually oriented offenses", "offenses where a victim or suspect is under 17", "social service referral offenses"],
+    "family_violence": "absent: the family flag is never true in any year, and the assault preliminary-investigation offenses are named '*NON FAMILY VIOLENCE'",
+    "records_system": "UCR fields filled through June 2018 and empty from July 2018; nibrs_code filled for every row from January 2017",
+    "aggravated_2023": {"city_file_13A_rows": 2812, "fbi_summarized_aggravated_assault_offenses_TXDPD0000": 6089, "share": 0.462},
+    "fbi_source": "https://api.usa.gov/crime/fbi/cde/summarized/agency/TXDPD0000/ASS?from=01-2023&to=12-2023 (monthly actuals summed)"
+  },
+  "nibrs_files": {
+    "source": "FBI Crime Data Explorer, NIBRS incident data by state, key nibrs/incident/<year>/TX-<year>.zip via /LATEST/s3/signedurl",
+    "sizes_bytes": {"2022": 134834288, "2023": 128089362, "2024": 122331744, "2025": 115659398},
+    "latest_release": "2025 data, August 2026"
+  },
+  "skipped": {
+    "DALLAS_Crime_Data/Dallas_PD_Incidents (ArcGIS)": "personal copy, owner account at TAMUCC",
+    "CBD_ViolentCrime_2024 (ArcGIS, DPD GIS team)": "205 downtown rows for 2024 only",
+    "4ea4-q4ui RMS Incidents with GeoLocation": "stopped in 2016",
+    "chez-ydz4 Police Person": "same filter as incidents; victim age at offense links to incident rows only by incident, race and sex"
+  }
+}

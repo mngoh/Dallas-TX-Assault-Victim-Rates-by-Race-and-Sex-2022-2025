@@ -1,0 +1,14 @@
+# raw downloads, refetched by scripts/fetch_nibrs.py, sources.py and scripts/city_ages.py (the city file is 1.3 GB);
+# their .source.json records are tracked
+data/raw/*.csv
+data/raw/*.zip
+# working copies rebuilt from the raw files (scripts/slim_inputs.py, nibrs.py flatten, prepare.py)
+data/interim/
+data/city/dallas_city_simple.csv
+data/city/dallas_city_aggravated.csv
+# Census Reporter and boundary downloads, refetched by denominators.py; population.json is tracked
+out/cache/
+city/out/cache/
+.claude/
+.DS_Store
+__pycache__/

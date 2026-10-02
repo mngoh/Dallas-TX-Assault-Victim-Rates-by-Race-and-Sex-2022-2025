@@ -1,0 +1,66 @@
+{
+ "_status": "Draft from /new-city (NIBRS route). The three decisions are null: the question (groups, focus), what counts (codes, kinds, flags) and the window. race_map_by_group becomes race_map for the chosen groups only. Columns are the ones nibrs.py victims writes; the incident files by kind come from it after the decisions.",
+ "title": null,
+ "place": {
+  "name": "Dallas",
+  "short": null,
+  "census_geoid": "16000US4819000"
+ },
+ "acs_release": "acs2024_5yr",
+ "window": null,
+ "event": null,
+ "incidents": [
+  {
+   "path": "data/interim/victim_offenses.csv",
+   "kind": "all"
+  }
+ ],
+ "columns": {
+  "id": "victim_id",
+  "date": "incident_date",
+  "race": "race_group",
+  "sex": "sex",
+  "age": "age",
+  "premise": "premise",
+  "weapon": "weapon",
+  "code": "offense_code"
+ },
+ "race_map_by_group": {
+  "Black": [
+   "B"
+  ],
+  "Hispanic": [
+   "H"
+  ],
+  "White": [
+   "W"
+  ],
+  "Asian": [
+   "A"
+  ],
+  "AIAN": [
+   "I"
+  ],
+  "NHPI": [
+   "P"
+  ]
+ },
+ "race_left_out": {
+  "U": "Unknown (REF_RACE legend)"
+ },
+ "sex_values": {
+  "F": "F",
+  "M": "M"
+ },
+ "groups": null,
+ "focus": null,
+ "flags": null,
+ "sources": [
+  "FBI National Incident-Based Reporting System (NIBRS) state files for Texas, Dallas Police Department (TXDPD0000)",
+  "US Census Bureau ACS 2020 to 2024 via Census Reporter"
+ ],
+ "source_urls": [
+  "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads",
+  "https://www.dallasopendata.com/d/qv6i-rri7"
+ ]
+}

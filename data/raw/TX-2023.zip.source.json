@@ -1,0 +1,10 @@
+{
+ "url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads",
+ "platform": "fbi-cde",
+ "api": "https://cde.ucr.cjis.gov/LATEST/s3/signedurl?key=nibrs/incident/2023/TX-2023.zip",
+ "key": "nibrs/incident/2023/TX-2023.zip",
+ "fetched_at": "2026-10-02T18:22:19",
+ "bytes": 128089362,
+ "sha256": "895e708876005299e0e376c599e8f74971f17b5447fcf8776443c62d709d0b70",
+ "note": "FBI Crime Data Explorer, NIBRS incident data by state and year, Texas, as received"
+}
