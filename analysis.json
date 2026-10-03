@@ -1,178 +1,182 @@
 {
- "title": "Assault victims in Dallas",
- "author": "Martin Ngoh",
- "place": {
-  "name": "Dallas",
-  "short": "Dallas",
-  "census_geoid": "16000US4819000"
- },
- "acs_release": "acs2024_5yr",
- "window": {
-  "start": "2022-01-01",
-  "end": "2025-12-31"
- },
- "event": {
-  "noun": "assault",
-  "plural": "assaults",
-  "verb": "assaulted"
- },
- "incidents": [
-  {
-   "path": "data/dallas_simple.csv",
-   "kind": "simple"
+  "title": "Assault victims in Dallas",
+  "author": "Martin Ngoh",
+  "place": {
+    "name": "Dallas",
+    "short": "Dallas",
+    "census_geoid": "16000US4819000"
   },
-  {
-   "path": "data/dallas_aggravated.csv",
-   "kind": "aggravated"
-  }
- ],
- "kind_labels": {
-  "simple": "Simple assault",
-  "aggravated": "Aggravated assault"
- },
- "columns": {
-  "id": "victim_id",
-  "date": "incident_date",
-  "race": "race_group",
-  "sex": "sex",
-  "age": "age",
-  "premise": "premise_label",
-  "weapon": "weapon",
-  "code": "offense_code"
- },
- "race_map": {
-  "B": "Black",
-  "H": "Hispanic",
-  "W": "White",
-  "A": "Asian"
- },
- "sex_values": {
-  "F": "F",
-  "M": "M"
- },
- "groups": [
-  "Black",
-  "Hispanic",
-  "White",
-  "Asian"
- ],
- "focus": {
-  "group": "Black",
-  "sex": "F",
-  "label": "Black women"
- },
- "flags": {
-  "partner": {
-   "column": "partner",
-   "values": [
-    "Y"
-   ],
-   "label": "Intimate partner"
-  }
- },
- "weapon_classes": [
-  {
-   "label": "Firearm",
-   "keywords": [
-    "FIREARM",
-    "HANDGUN",
-    "RIFLE",
-    "SHOTGUN"
-   ]
+  "acs_release": "acs2024_5yr",
+  "window": {
+    "start": "2022-01-01",
+    "end": "2025-12-31"
   },
-  {
-   "label": "Knife or cutting",
-   "keywords": [
-    "KNIFE",
-    "CUTTING"
-   ]
+  "event": {
+    "noun": "assault",
+    "plural": "assaults",
+    "verb": "assaulted"
   },
-  {
-   "label": "Blunt object or vehicle",
-   "keywords": [
-    "BLUNT",
-    "CLUB",
-    "MOTOR VEHICLE"
-   ]
+  "incidents": [
+    {
+      "path": "data/dallas_simple.csv",
+      "kind": "simple"
+    },
+    {
+      "path": "data/dallas_aggravated.csv",
+      "kind": "aggravated"
+    }
+  ],
+  "kind_labels": {
+    "simple": "Simple assault",
+    "aggravated": "Aggravated assault"
   },
-  {
-   "label": "Hands, fists, feet",
-   "keywords": [
-    "PERSONAL WEAPON",
-    "ASPHYXIATION",
-    "STRANGULATION"
-   ]
-  }
- ],
- "sources": [
-  "FBI National Incident-Based Reporting System (NIBRS) state files for Texas, Dallas Police Department, 2022 to 2025",
-  "US Census Bureau ACS 2020 to 2024 five-year estimates via Census Reporter",
-  "Dallas Police Department, Police Incidents, Dallas OpenData (replication and the location section)",
-  "Dallas Police Department, Police Person, Dallas OpenData (victim ages for the location section)",
-  "Dallas police divisions, 2022 boundaries, Dallas Police Department GIS"
- ],
- "links": {
-  "code": "https://github.com/mngoh/Dallas-TX-Assault-Victim-Rates-by-Race-and-Sex-2022-2025",
-  "home": "https://martinngoh.com"
- },
- "extra_caveats": [
-  [
-   "Victims have no location",
-   "The FBI's NIBRS files record no address or police division, so the location test and the tract model run on the city's own public file instead (the Where section). That file holds only non-family assaults on victims 17 and older, so those results describe that part of the data, not all assaults."
+  "columns": {
+    "id": "victim_id",
+    "date": "incident_date",
+    "race": "race_group",
+    "sex": "sex",
+    "age": "age",
+    "premise": "premise_label",
+    "weapon": "weapon",
+    "code": "offense_code"
+  },
+  "race_map": {
+    "B": "Black",
+    "H": "Hispanic",
+    "W": "White",
+    "A": "Asian"
+  },
+  "sex_values": {
+    "F": "F",
+    "M": "M"
+  },
+  "groups": [
+    "Black",
+    "Hispanic",
+    "White",
+    "Asian"
   ],
-  [
-   "The city's public file leaves most assaults out",
-   "Dallas police publish their incident data without family violence or any offense with a victim or suspect under 17. The age rule is in the dataset's description. The family violence rule is not, but the file's family-violence flag is not set on any record. For 2022 to 2025 the public file holds 17.1% of the assaults on Black women that Dallas police reported to the FBI, against 15.0% for Hispanic, 20.2% for White and 21.2% for Asian women. This analysis uses the FBI's NIBRS files, which hold them all."
+  "focus": {
+    "group": "Black",
+    "sex": "F",
+    "label": "Black women"
+  },
+  "flags": {
+    "partner": {
+      "column": "partner",
+      "values": [
+        "Y"
+      ],
+      "label": "Intimate partner"
+    }
+  },
+  "weapon_classes": [
+    {
+      "label": "Firearm",
+      "keywords": [
+        "FIREARM",
+        "HANDGUN",
+        "RIFLE",
+        "SHOTGUN"
+      ]
+    },
+    {
+      "label": "Knife or cutting",
+      "keywords": [
+        "KNIFE",
+        "CUTTING"
+      ]
+    },
+    {
+      "label": "Blunt object or vehicle",
+      "keywords": [
+        "BLUNT",
+        "CLUB",
+        "MOTOR VEHICLE"
+      ]
+    },
+    {
+      "label": "Hands, fists, feet",
+      "keywords": [
+        "PERSONAL WEAPON",
+        "ASPHYXIATION",
+        "STRANGULATION"
+      ]
+    }
   ],
-  [
-   "Agencies in the file",
-   "Only the Dallas Police Department. Other agencies in Dallas County recorded 4,244 assault victims in these years (DART police 1,149, Baylor Health Care System police 1,088, Dallas ISD police 745, Dallas County Sheriff 484, UT Southwestern police 362, Parkland (county hospital district) police 325, SMU police 73, Dallas College police 10). Some work partly outside the city, and some began reporting partway through, so they are left out. Assaults only they recorded are missing."
+  "sources": [
+    "FBI National Incident-Based Reporting System (NIBRS) state files for Texas, Dallas Police Department, 2022 to 2025",
+    "US Census Bureau ACS 2020 to 2024 five-year estimates via Census Reporter",
+    "Dallas Police Department, Police Incidents, Dallas OpenData (replication and the location section)",
+    "Dallas Police Department, Police Person, Dallas OpenData (victim ages for the location section)",
+    "Dallas police divisions, 2022 boundaries, Dallas Police Department GIS"
   ],
-  [
-   "Policing and reporting",
-   "Police data reflects where officers patrol and who calls them. This data cannot separate more policing or more reporting from more assaults."
+  "links": {
+    "code": "https://github.com/mngoh/Dallas-TX-Assault-Victim-Rates-by-Race-and-Sex-2022-2025",
+    "home": "https://martinngoh.com"
+  },
+  "extra_caveats": [
+    [
+      "What this number measures",
+      "Police reports, not how often women are hurt. In the national victimization survey, which counts assaults whether or not police learned of them, Black and White women describe being assaulted at about the same rate nationally and about 1.5 to 2 times in large cities. A follow-up (Police-Records-vs-Survey-Assault-Victims-by-Race-and-Sex-2015-2025, on GitHub) tested why police records differ more: not reporting rates, not (or only a little) how police write up a call, not the same women counted repeatedly, but largely where assaults happen and who calls. Hospital emergency departments, which do not depend on a call to police, see a gap like the police one (about 4.6 times for women in 2021 to 2022), which points to the survey undercounting assaults on Black women."
+    ],
+    [
+      "Victims have no location",
+      "The FBI's NIBRS files record no address or police division, so the location test and the tract model run on the city's own public file instead (the Where section). That file holds only non-family assaults on victims 17 and older, so those results describe that part of the data, not all assaults."
+    ],
+    [
+      "The city's public file leaves most assaults out",
+      "Dallas police publish their incident data without family violence or any offense with a victim or suspect under 17. The age rule is in the dataset's description. The family violence rule is not, but the file's family-violence flag is not set on any record. For 2022 to 2025 the public file holds 17.1% of the assaults on Black women that Dallas police reported to the FBI, against 15.0% for Hispanic, 20.2% for White and 21.2% for Asian women. This analysis uses the FBI's NIBRS files, which hold them all."
+    ],
+    [
+      "Agencies in the file",
+      "Only the Dallas Police Department. Other agencies in Dallas County recorded 4,244 assault victims in these years (DART police 1,149, Baylor Health Care System police 1,088, Dallas ISD police 745, Dallas County Sheriff 484, UT Southwestern police 362, Parkland (county hospital district) police 325, SMU police 73, Dallas College police 10). Some work partly outside the city, and some began reporting partway through, so they are left out. Assaults only they recorded are missing."
+    ],
+    [
+      "Policing and reporting",
+      "Police data reflects where officers patrol and who calls them. This data cannot separate more policing or more reporting from more assaults."
+    ],
+    [
+      "Hispanic ethnicity",
+      "NIBRS records ethnicity apart from race, and it is unknown or unspecified for 1.0% of women victims. 223 women recorded as White (0.9%) have unknown ethnicity; where it is known, 72.5% of White-race women are Hispanic. They are counted as White. If they were all Hispanic, Black women's rate would be 2.23x Hispanic women's instead of 2.26x, and 4.04x White women's instead of 3.91x. Hispanic of any race counts as Hispanic, so 332 women recorded as Black and Hispanic are in the Hispanic group."
+    ],
+    [
+      "Missing race",
+      "20 women victims have unknown race. Spread over the four groups like known victims of the same assault type and premises, they do not move the ratios (2.26x Hispanic, 3.91x White and 13.52x Asian)."
+    ],
+    [
+      "Intimate partner is a lower bound",
+      "Partner assaults are identified from the victim-offender relationship, which is unknown or blank for 13.6% of Black, 13.5% of Hispanic, 13.3% of White and 16.3% of Asian women victims. Partner assault is 37.5% of assaults on Black women, and 43.7% on Hispanic, 41.5% on White and 44.2% on Asian women."
+    ],
+    [
+      "Premises codes",
+      "Dallas police file 16.3% of assaults under the FBI's commercial or office building category and 5.2% under field or woods, against 0.9% or less and 0.6% or less in Houston, San Antonio, Fort Worth, Austin and El Paso, the five other largest city police departments in Texas. Their own records list apartment complexes (12.9% of assaults in the city file) and outdoor areas (8.5%) as premises, and NIBRS has no such categories, so these two most likely hold them. Home is lower to match: 45.0% of assaults, against 50.0% to 68.0% elsewhere."
+    ],
+    [
+      "What is counted",
+      "Aggravated (13A) and simple (13B) assault reported by the Dallas Police Department, individual victims of any age, 6,282 of them under 17. Non-fatal shootings are aggravated assaults in NIBRS and are included. Left out: 640 assaults on officers; 16,389 intimidation victims (threats with no attack). 90 American Indian or Alaska Native and 107 Native Hawaiian or Pacific Islander victims are counted in the totals but not compared, because counts this small give unstable rates. 282 victims with unknown age fall out of the age test only."
+    ],
+    [
+      "Window and population",
+      "Victims cover January 2022 to December 2025; the population is the ACS 2024 5-year estimate, an average over 2020 to 2024."
+    ],
+    [
+      "Residents are the denominator",
+      "Dallas draws commuters and visitors, and rates divide by residents only. NIBRS resident status is blank for 97.0% of victims here, so victims who live elsewhere cannot be separated."
+    ],
+    [
+      "Ages in the city file",
+      "The city's incident file has no victim age. In the Where section, ages come from the city's Police Person table, linked by incident, race, ethnicity and sex. 98.2% of women in simple assaults and 95.3% of women in aggravated assaults have a linked age; the rest drop out of the model only."
+    ],
+    [
+      "Neighborhood is not neutral",
+      "Police division and tract poverty, income, unemployment and housing are shaped by segregation and disinvestment. 32.7% of Black women live in census tracts where 25% or more of residents are poor, against 24.6% of Hispanic women, 5.4% of White women and 9.0% of Asian women. In the city file's subset, tract socioeconomics narrow the gap from 2.8x to 2.18x. Where a control narrows a gap, the gap has been located, not explained away."
+    ],
+    [
+      "Least stable comparison",
+      "The Asian comparison rests on 283 Asian women victims. Between the two sources and across years it moved up to 24%, against 14% or less for the others, so it is left out of the headline."
+    ]
   ],
-  [
-   "Hispanic ethnicity",
-   "NIBRS records ethnicity apart from race, and it is unknown or unspecified for 1.0% of women victims. 223 women recorded as White (0.9%) have unknown ethnicity; where it is known, 72.5% of White-race women are Hispanic. They are counted as White. If they were all Hispanic, Black women's rate would be 2.23x Hispanic women's instead of 2.26x, and 4.04x White women's instead of 3.91x. Hispanic of any race counts as Hispanic, so 332 women recorded as Black and Hispanic are in the Hispanic group."
-  ],
-  [
-   "Missing race",
-   "20 women victims have unknown race. Spread over the four groups like known victims of the same assault type and premises, they do not move the ratios (2.26x Hispanic, 3.91x White and 13.52x Asian)."
-  ],
-  [
-   "Intimate partner is a lower bound",
-   "Partner assaults are identified from the victim-offender relationship, which is unknown or blank for 13.6% of Black, 13.5% of Hispanic, 13.3% of White and 16.3% of Asian women victims. Partner assault is 37.5% of assaults on Black women, and 43.7% on Hispanic, 41.5% on White and 44.2% on Asian women."
-  ],
-  [
-   "Premises codes",
-   "Dallas police file 16.3% of assaults under the FBI's commercial or office building category and 5.2% under field or woods, against 0.9% or less and 0.6% or less in Houston, San Antonio, Fort Worth, Austin and El Paso, the five other largest city police departments in Texas. Their own records list apartment complexes (12.9% of assaults in the city file) and outdoor areas (8.5%) as premises, and NIBRS has no such categories, so these two most likely hold them. Home is lower to match: 45.0% of assaults, against 50.0% to 68.0% elsewhere."
-  ],
-  [
-   "What is counted",
-   "Aggravated (13A) and simple (13B) assault reported by the Dallas Police Department, individual victims of any age, 6,282 of them under 17. Non-fatal shootings are aggravated assaults in NIBRS and are included. Left out: 640 assaults on officers; 16,389 intimidation victims (threats with no attack). 90 American Indian or Alaska Native and 107 Native Hawaiian or Pacific Islander victims are counted in the totals but not compared, because counts this small give unstable rates. 282 victims with unknown age fall out of the age test only."
-  ],
-  [
-   "Window and population",
-   "Victims cover January 2022 to December 2025; the population is the ACS 2024 5-year estimate, an average over 2020 to 2024."
-  ],
-  [
-   "Residents are the denominator",
-   "Dallas draws commuters and visitors, and rates divide by residents only. NIBRS resident status is blank for 97.0% of victims here, so victims who live elsewhere cannot be separated."
-  ],
-  [
-   "Ages in the city file",
-   "The city's incident file has no victim age. In the Where section, ages come from the city's Police Person table, linked by incident, race, ethnicity and sex. 98.2% of women in simple assaults and 95.3% of women in aggravated assaults have a linked age; the rest drop out of the model only."
-  ],
-  [
-   "Neighborhood is not neutral",
-   "Police division and tract poverty, income, unemployment and housing are shaped by segregation and disinvestment. 32.7% of Black women live in census tracts where 25% or more of residents are poor, against 24.6% of Hispanic women, 5.4% of White women and 9.0% of Asian women. In the city file's subset, tract socioeconomics narrow the gap from 2.8x to 2.18x. Where a control narrows a gap, the gap has been located, not explained away."
-  ],
-  [
-   "Least stable comparison",
-   "The Asian comparison rests on 283 Asian women victims. Between the two sources and across years it moved up to 24%, against 14% or less for the others, so it is left out of the headline."
-  ]
- ],
- "headline": "Black women in Dallas are assaulted at 2.1 to 2.3 times the rate of Hispanic women and 3.6 to 4 times the rate of White women, and age does not explain it. The gap is widest for aggravated assault. Where locations are known, in the city's own records of non-family assaults, comparing women in similar neighborhoods narrows it from 2.7 to 2.2 times.",
- "question": "Are Black women in Dallas assaulted at a higher rate than Hispanic, White and Asian women, and do the plain explanations account for it?"
+  "headline": "Black women in Dallas are assaulted at 2.1 to 2.3 times the rate of Hispanic women and 3.6 to 4 times the rate of White women, and age does not explain it. The gap is widest for aggravated assault. Where locations are known, in the city's own records of non-family assaults, comparing women in similar neighborhoods narrows it from 2.7 to 2.2 times.",
+  "question": "Are Black women in Dallas assaulted at a higher rate than Hispanic, White and Asian women, and do the plain explanations account for it?"
 }
