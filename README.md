@@ -9,7 +9,7 @@ The full page is `index.html`.
 Every number below is generated from `out/results.json`, `out/dallas_checks.json`, `out/replication.json`, `out/extra_sections.json` and `city/out/results.json`.
 
 <!-- results:start -->
-**Black women in Dallas are assaulted at 2.1 to 2.3 times the rate of Hispanic women and 3.6 to 4 times the rate of White women, and age does not explain it. The gap is widest for aggravated assault. Where locations are known, in the city's own records of non-family assaults, comparing women in similar neighborhoods narrows it from 2.7 to 2.2 times.**
+**Black women's reported assault rate in Dallas is 2.1 to 2.3 times Hispanic women's and 3.6 to 4 times White women's, and age does not explain it. The gap is widest for aggravated assault. Where locations are known, in the city's own records of non-family assaults, comparing women in similar neighborhoods narrows it from 2.7 to 2.2 times.**
 
 Rates per 100,000 residents a year, 2022-01-01 to 2025-12-31:
 
@@ -35,7 +35,7 @@ Replication: Hispanic 2.5x then 2.58x; White 3.15x then 3.32x; Asian 11.21x then
 
 Caveats:
 
-- This shows what, not why: The data says Black women are assaulted at a higher rate. It does not say why. Nothing here measures causes, offenders or circumstances.
+- This shows what, not why: The data says the reported assault rate for Black women is higher. It does not say why. Nothing here measures causes, offenders or circumstances.
 - Reported crimes only: Every number is a report that reached the police. Willingness to report, and recording practice, differ by group, area and time.
 - Reports, not people: Rates count reports. Someone assaulted twice counts twice, so a rate is not the share of people assaulted.
 - Exposure is not population: Rates divide by where people live, not where they spend time.
